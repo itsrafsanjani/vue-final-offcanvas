@@ -6,7 +6,7 @@
       class="relative z-10 bg-gray-100 shadow border-b py-6 px-4 flex w-full items-center dark:bg-gray-800 dark:border-gray-600">
       <slot name="header"></slot>
       <div @click="toggle(false)"
-        class="h-8 w-8 rounded-full shadow bg-white dark:bg-gray-900 text-xl inline-flex ml-auto justify-center align-center cursor-pointer border border-red-400 text-red-500">
+        class="h-8 w-8 rounded-full shadow bg-white dark:bg-gray-900 text-xl inline-flex ml-auto justify-center items-center cursor-pointer border border-red-400 text-red-500">
         &times;
       </div>
     </div>
