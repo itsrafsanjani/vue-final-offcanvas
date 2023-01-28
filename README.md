@@ -13,9 +13,9 @@ For `Vue 3` Check `v3` branch.
 ## Installation
 
 ```shell
-$ npm install vue-final-offcanvas
+$ npm install vue-final-offcanvas@2
 // OR
-$ yarn add vue-final-offcanvas
+$ yarn add vue-final-offcanvas@2
 ```
 
 ## Usage
