@@ -1,6 +1,6 @@
 {
   "name": "vue-final-offcanvas",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Offcanvas component for Vue",
   "main": "Offcanvas.vue",
   "scripts": {
