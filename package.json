@@ -1,0 +1,21 @@
+{
+  "name": "vue-final-offcanvas",
+  "version": "1.0.0",
+  "description": "Offcanvas component for Vue",
+  "main": "Offcanvas.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsrafsanjani/vue-final-offcanvas.git"
+  },
+  "keywords": [
+    "vue",
+    "offcanvas",
+    "vue-offcanvas",
+    "vue-final-offcanvas"
+  ],
+  "author": "Md Rafsan Jani Rafin",
+  "license": "MIT"
+}
