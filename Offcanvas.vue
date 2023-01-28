@@ -27,13 +27,13 @@ export default {
   },
 
   props: {
-    value: {
+    modelValue: {
       type: Boolean,
     },
   },
 
   watch: {
-    value(val) {
+    modelValue(val) {
       setTimeout(() => this.toggle(val));
     },
   },
@@ -56,7 +56,7 @@ export default {
         document.body.style.overflow = "hidden";
         this.visible = true;
       } else {
-        this.$emit("input", false);
+        this.$emit("update:modelValue", false);
         document.body.style.overflow = "auto";
         setTimeout(() => (this.visible = false), this.duration * 1000);
       }
