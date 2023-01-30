@@ -3,13 +3,16 @@
     class="w-full bg-white fixed top-0 right-0 xl:w-8/12 min-h-full z-50 shadow-xl transition ease-in-out delay-150 transform"
     :class="[visible ? 'translate-x-0' : 'translate-x-full']">
     <div
-      class="relative z-10 bg-gray-100 shadow border-b py-6 px-4 flex w-full items-center dark:bg-gray-800 dark:border-gray-600">
+      class="relative z-10 bg-gray-100 shadow border-b py-5 px-4 flex w-full items-center dark:bg-gray-800 dark:border-gray-600 dark:text-white">
       <slot name="header"></slot>
       <div class="ml-auto flex">
-        <div @click="toggle(false)"
-          class="flex h-8 w-8 rounded-full shadow bg-white dark:bg-gray-900 text-xl justify-center cursor-pointer border border-red-400 text-red-500">
-          &times;
-        </div>
+        <button @click="toggle(false)" title="Close">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="h-9 w-9 text-red-500 hover:text-red-600">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        </button>
       </div>
     </div>
     <div class="w-full px-6 offcanvas-body absolute top-16 pt-8 pb-16 dark:bg-gray-700">
