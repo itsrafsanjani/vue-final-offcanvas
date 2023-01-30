@@ -2,14 +2,14 @@
 
 A better Offcanvas for Vue.
 
-No special dependencies, no jquery, no bootstrap, just VueJS and `tailwind` goodness.
+Made with `Vue` and `TailwindCSS` goodness.
 
 ## Requirements
 
 - [Vue 3](https://vuejs.org/)
 - [TailwindCSS](https://tailwindcss.com/docs/guides/vite#vue)
 
-For `Vue 2` Check `v2` branch.
+For `Vue 2` Check [v2]('https://github.com/itsrafsanjani/vue-final-offcanvas/tree/v2') branch.
 
 ## Installation
 
