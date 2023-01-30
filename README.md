@@ -2,20 +2,44 @@
 
 A better Offcanvas for Vue.
 
-No special dependencies, no jquery, no bootstrap, just VueJS and CSS goodness.
+No special dependencies, no jquery, no bootstrap, just VueJS and `tailwind` goodness.
 
 ## Requirements
 
 - [Vue 3](https://vuejs.org/)
+- [TailwindCSS](https://tailwindcss.com/docs/guides/vite#vue)
 
 For `Vue 2` Check `v2` branch.
 
 ## Installation
 
+- Install the package
+
 ```shell
-$ npm install vue-final-offcanvas
+npm install vue-final-offcanvas
 // OR
-$ yarn add vue-final-offcanvas
+yarn add vue-final-offcanvas
+```
+
+- Update `tailwind.config.js`
+
+```js
+// tailwind.config.js
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./index.html",
+    "./src/**/*.{vue,js,ts,jsx,tsx}",
+    // add this line
+    "./node_modules/vue-final-offcanvas/**/*.vue",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
 ```
 
 ## Usage
@@ -41,7 +65,7 @@ $ yarn add vue-final-offcanvas
       <hr class="my-3">
     </section>
   </Offcanvas>
-  <button @click="toggleOffcanvas" class="hover:bg-gray-200">Toggle Offcanvas</button>
+  <button @click="toggleOffcanvas" class="px-5 py-3 bg-gray-200 hover:bg-gray-300 rounded">Toggle Offcanvas</button>
 </template>
 
 <script>
