@@ -11,6 +11,12 @@ Made with `Vue` and `TailwindCSS` goodness.
 
 For `Vue 2` Check [v2]('https://github.com/itsrafsanjani/vue-final-offcanvas/tree/v2') branch.
 
+## Check Demo
+
+Live: <https://vue-final-offcanvas-vue3-demo.netlify.app>
+
+Source code: <https://github.com/itsrafsanjani/vue-final-offcanvas-vue3-demo>
+
 ## Installation
 
 - Install the package
