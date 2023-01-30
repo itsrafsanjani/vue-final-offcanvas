@@ -5,9 +5,11 @@
     <div
       class="relative z-10 bg-gray-100 shadow border-b py-6 px-4 flex w-full items-center dark:bg-gray-800 dark:border-gray-600">
       <slot name="header"></slot>
-      <div @click="toggle(false)"
-        class="h-8 w-8 rounded-full shadow bg-white dark:bg-gray-900 text-xl ml-auto inline-flex justify-center items-center cursor-pointer border border-red-400 text-red-500">
-        &times;
+      <div class="ml-auto flex">
+        <div @click="toggle(false)"
+          class="flex h-8 w-8 rounded-full shadow bg-white dark:bg-gray-900 text-xl justify-center cursor-pointer border border-red-400 text-red-500">
+          &times;
+        </div>
       </div>
     </div>
     <div class="px-6 offcanvas-body absolute top-16 pt-8 pb-16 dark:bg-gray-700">
