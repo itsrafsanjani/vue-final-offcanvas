@@ -12,7 +12,7 @@
         </div>
       </div>
     </div>
-    <div class="px-6 offcanvas-body absolute top-16 pt-8 pb-16 dark:bg-gray-700">
+    <div class="w-full px-6 offcanvas-body absolute top-16 pt-8 pb-16 dark:bg-gray-700">
       <slot v-if="visible"></slot>
     </div>
   </div>
